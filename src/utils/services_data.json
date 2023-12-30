@@ -1,0 +1,48 @@
+[
+    {
+      "icon": "IoIosWifi",
+      "title": "High Speed Internet",
+      "detail": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem repellendus natus tenetur ad repellat alias, totam dicta eum, accusantium eveniet quibusdam officiis quos quia aliquid maxime!"
+    },
+    {
+      "icon": "GiMeal",
+      "title": "Healthy meals",
+      "detail": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem repellendus natus tenetur ad repellat alias, totam dicta eum, accusantium eveniet quibusdam officiis quos quia aliquid maxime!"
+    },
+    {
+      "icon": "GoHome",
+      "title": "Homely Stay",
+      "detail": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem repellendus natus tenetur ad repellat alias, totam dicta eum, accusantium eveniet quibusdam officiis quos quia aliquid maxime!"
+    },
+    {
+      "icon": "FaCar",
+      "title": "Transportation",
+      "detail": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem repellendus natus tenetur ad repellat alias, totam dicta eum, accusantium eveniet quibusdam officiis quos quia aliquid maxime!"
+    },
+    {
+      "icon": "IoIosBicycle",
+      "title": "Food Delivery",
+      "detail": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem repellendus natus tenetur ad repellat alias, totam dicta eum, accusantium eveniet quibusdam officiis quos quia aliquid maxime!"
+    },
+    {
+      "icon": "IoMapSharp",
+      "title": "Tourism",
+      "detail": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem repellendus natus tenetur ad repellat alias, totam dicta eum, accusantium eveniet quibusdam officiis quos quia aliquid maxime!"
+    },
+    {
+      "icon": "MdFlag",
+      "title": "Job",
+      "detail": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem repellendus natus tenetur ad repellat alias, totam dicta eum, accusantium eveniet quibusdam officiis quos quia aliquid maxime!"
+    },
+    {
+      "icon": "MdCarRental",
+      "title": "Rental Service",
+      "detail": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem repellendus natus tenetur ad repellat alias, totam dicta eum, accusantium eveniet quibusdam officiis quos quia aliquid maxime!"
+    },
+    {
+      "icon": "MdShoppingCart",
+      "title": "Online shop",
+      "detail": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem repellendus natus tenetur ad repellat alias, totam dicta eum, accusantium eveniet quibusdam officiis quos quia aliquid maxime!"
+    }
+  ]
+  
