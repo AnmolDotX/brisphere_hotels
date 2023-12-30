@@ -1,6 +1,5 @@
 'use client'
 import { Discover, HeroSection, Services } from "@/components";
-import { useEffect } from "react";
 
 const HomePage = () => {
 
