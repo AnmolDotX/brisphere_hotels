@@ -10,7 +10,7 @@ const Services = () => {
       <div className="grid grid-cols-3 grid-rows-3 gap-10">
          {
             ServiceData.map(({icon, title, detail})=>(
-                <div>
+                <div key={title}>
                     <ServiceCard icon={icon} title={title} detail={detail} />
                 </div>
             ))

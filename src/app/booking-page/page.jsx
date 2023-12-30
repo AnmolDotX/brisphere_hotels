@@ -23,9 +23,14 @@ const BookingPage = () => {
     console.log(mainFormData);
   };
 
+  let dep = '';
+  if(mainFormData) {
+    dep = mainFormData && mainFormData['rooms'];
+  }
+
   useEffect(() => {
     setPrice(mainFormData["rooms"] * 100);
-  }, [mainFormData["rooms"]]);
+  }, [dep]);
 
   return (
     <section className='min-h-[calc(100vh-95px)]'>

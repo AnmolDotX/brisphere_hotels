@@ -14,7 +14,7 @@ const HeroSection = () => {
             <span>ladakh</span>
           </h3>
           <p className='text-base font-light text-black/70 tracking-wider'>
-            India's first true digital tourism ecosystem
+            India&apos;s first true digital tourism ecosystem
           </p>
           <div className='flex items-center text-2xl gap-2 md:text-4xl md:gap-5'>
             <FaFacebook className='opacity-70' />

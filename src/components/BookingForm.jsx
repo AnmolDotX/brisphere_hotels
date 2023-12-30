@@ -21,7 +21,7 @@ const BookingForm = ({
       "check-out": checkOut,
       rooms: rooms,
     });
-  }, []);
+  }, [checkIn, checkOut, rooms, mainFormData]);
 
   const handleChange = (e) => {
     setMainFormData({
