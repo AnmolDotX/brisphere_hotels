@@ -23,7 +23,7 @@ const ServiceCard = ({icon, title, detail}) => {
 
     const IconComponent = iconComponents[icon];
     return (
-        <div className="flex flex-col items-center gap-3 rounded-lg shadow-md shadow-slate-400/50 p-5 max-w-[20vw] bg-slate-50/50">
+        <div className="flex flex-col items-center gap-3 rounded-lg shadow-md shadow-slate-400/50 p-5 max-w-[90vw] md:max-w-[20vw] bg-slate-50/50">
             <div className="text-7xl p-3 rounded-full opacity-60">
                 {
                     IconComponent && <IconComponent/>

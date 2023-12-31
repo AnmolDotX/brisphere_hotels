@@ -6,13 +6,13 @@ const Discover = () => {
   return (
     <section
       id='discover'
-      className='min-h-screen flex flex-col items-center gap-16'
+      className='min-h-screen flex flex-col items-center gap-5 md:gap-16'
     >
-      <div className='text-gray-900/90 text-5xl'>
+      <div className='text-gray-900/90 text-3xl md:text-5xl'>
         <h3>Discover</h3>
       </div>
-      <div className='grid grid-cols-3 gap-10'>
-        <div className='h-[20vh] min-w-72 p-3 rounded-md bg-slate-100 shadow-lg shadow-slate-400/70 overflow-hidden flex flex-col items-start justify-around'>
+      <div className='flex flex-col md:grid md:grid-cols-3 gap-10 min-w-full md:min-w-0  overflow-scroll h-[70vh] shadow-black/50 shadow-sm px-2 rounded-md md:rounded-none md:shadow-none md:h-full py-5 md:overflow-hidden'>
+        <div className='min-h-[30vh] md:h-[20vh] min-w-72 p-3 rounded-md bg-slate-100 shadow-lg shadow-slate-400/70 overflow-hidden flex flex-col items-start justify-around'>
           <div className='flex items-center gap-2'>
             <div className='flex items-center justify-center rounded-full bg-slate-200'>
               <Image
@@ -42,11 +42,11 @@ const Discover = () => {
             <span className='text-sky-600'>read more.</span>
           </p>
         </div>
-        <div className='h-full min-w-72 rounded-md bg-slate-100 row-span-3 shadow-lg shadow-slate-400/70 flex flex-col items-center justify-between'>
-          <div className='h-[70%]'>
+        <div className='min-h-[50vh] md:h-full min-w-72 rounded-md bg-slate-100 row-span-3 shadow-lg shadow-slate-400/70 flex flex-col items-center justify-between'>
+          <div className='h-[50%] md:h-[70%]'>
             <Image alt="ladakh" src={Ladakh} className='h-full object-cover rounded-t-md' />
           </div>
-          <div className='overflow-hidden flex flex-col items-start justify-around h-[30%] p-3'>
+          <div className='overflow-hidden flex flex-col items-start justify-around h-[50%] md:h-[30%] p-3'>
             <div className='flex items-center gap-2'>
               <div className='flex items-center justify-center rounded-full bg-slate-200'>
                 <Image
@@ -79,7 +79,7 @@ const Discover = () => {
             </p>
           </div>
         </div>
-        <div className='h-[20vh] min-w-72 p-3 rounded-md bg-slate-100 shadow-lg shadow-slate-400/70 overflow-hidden flex flex-col items-start justify-around'>
+        <div className=' min-h-[30vh] md:h-[20vh] min-w-72 p-3 rounded-md bg-slate-100 shadow-lg shadow-slate-400/70 overflow-hidden flex flex-col items-start justify-around'>
           <div className='flex items-center gap-2'>
             <div className='flex items-center justify-center rounded-full bg-slate-200'>
               <Image
@@ -109,11 +109,11 @@ const Discover = () => {
             <span className='text-sky-600'>read more.</span>
           </p>
         </div>
-        <div className='h-full min-w-72 rounded-md bg-slate-100 row-span-2 shadow-lg shadow-slate-400/70 flex flex-col items-center justify-between'>
-          <div className='h-[70%]'>
+        <div className='min-h-[50vh] md:h-full min-w-72 rounded-md bg-slate-100 row-span-2 shadow-lg shadow-slate-400/70 flex flex-col items-center justify-between'>
+          <div className='h-[50%] md:h-[70%]'>
             <Image src={Ladakh} className='h-full object-cover rounded-t-md' />
           </div>
-          <div className='overflow-hidden flex flex-col items-start justify-around h-[30%] p-3'>
+          <div className='overflow-hidden flex flex-col items-start justify-around h-[50%] md:h-[30%] p-3'>
             <div className='flex items-center gap-2'>
               <div className='flex items-center justify-center rounded-full bg-slate-200'>
                 <Image
@@ -146,7 +146,7 @@ const Discover = () => {
             </p>
           </div>
         </div>
-        <div className='h-[20vh] min-w-72 p-3 rounded-md bg-slate-100 shadow-lg shadow-slate-400/70 overflow-hidden flex flex-col items-start justify-around'>
+        <div className='min-h-[30vh] md:h-[20vh] min-w-72 p-3 rounded-md bg-slate-100 shadow-lg shadow-slate-400/70 overflow-hidden flex flex-col items-start justify-around'>
           <div className='flex items-center gap-2'>
             <div className='flex items-center justify-center rounded-full bg-slate-200'>
               <Image
@@ -176,7 +176,7 @@ const Discover = () => {
             <span className='text-sky-600'>read more.</span>
           </p>
         </div>
-        <div className='h-[20vh] min-w-72 p-3 rounded-md bg-slate-100 shadow-lg shadow-slate-400/70 overflow-hidden flex flex-col items-start justify-around'>
+        <div className='min-h-[30vh] md:h-[20vh] min-w-72 p-3 rounded-md bg-slate-100 shadow-lg shadow-slate-400/70 overflow-hidden flex flex-col items-start justify-around'>
           <div className='flex items-center gap-2'>
             <div className='flex items-center justify-center rounded-full bg-slate-200'>
               <Image

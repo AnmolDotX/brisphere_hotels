@@ -31,7 +31,7 @@ const HeroSection = () => {
             />
           </div>
         </div>
-        <BookingComp className='absolute -bottom-64 md:-bottom-16 inset-x-8 md:inset-x-24' />
+        <BookingComp className='absolute bottom-0 md:-bottom-16 inset-x-8 md:inset-x-24' />
       </div>
     </section>
   );
